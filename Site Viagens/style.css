@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+}
+
+
+
+main {
+    
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    /* align-content: center; */
+    align-items: center;
+    margin: 14px 199px 64px;
+    
+}
+
+main div{
+    
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.roxo {
+    font-weight: 700;
+    color: #EE24FF;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    /* or 147% */
+    text-align: center; 
+    color: #828282;
+}
+
+span {
+    color: #3F3D56;
+    font-weight: 700;
+}
+
+
+footer {
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+footer nav{
+
+    text-decoration: none;
+    
+    text-align: center;
+    
+    margin: 0px 316px 0px 317px;
+
+
+    border-top: 1px solid #ECEFF2;
+    width: 391px;
+    height: 72px;
+    display: flex;
+    gap: 42px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+a {
+    text-decoration: none;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #3F3D56;
+    
+}
+
+a:hover {
+    color: #EE24FF;
+
+}
